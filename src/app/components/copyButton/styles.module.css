@@ -1,0 +1,72 @@
+.button{
+    border: none;
+    border-radius: .8rem;
+    background: var(--surface-secondary);
+    padding: 1.2rem;
+    font-size: 2rem;
+
+    display: flex;
+    position:absolute;
+    top: 0;
+    right: 0;
+
+    transition: 140ms ease-in;
+    z-index: 1;
+}
+
+.button:active{
+    scale: 0.95;
+}
+.button svg{
+    transition: all 1s;
+}
+.button span{
+    z-index: -1;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top:-3rem ;
+    border-radius: .4rem;
+    padding: .5rem;
+    background: var(--surface-tertiary);
+    opacity: 0;
+    animation: show 1s ease-in-out;
+    
+}
+button svg.hide{
+    display: none;
+    animation: show 1s ease-in forwards;
+}
+
+.button:hover{
+    box-shadow: 4px 4px 24px 0px rgba(3, 7, 18, 0.60);
+
+}
+
+@keyframes show {
+    0%{
+        opacity: 0;
+        translate:0 30px ;
+    }
+    60%{
+        opacity: 1;
+        scale: 1;
+    }
+    80%{
+        scale: 1.2;
+    }
+    85%{
+        scale: 0.9;
+        opacity: 1;
+    }
+    95%{
+        scale:1;
+        opacity: 0;
+    }
+
+    100%{
+        display: none;
+    }
+}

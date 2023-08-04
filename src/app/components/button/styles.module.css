@@ -1,0 +1,18 @@
+.button{
+    background: var(--brand-primary);
+    font-weight: 600;
+    line-height: 16px; 
+    border-radius: .8rem;
+    color: var(--text-primary);
+    min-width: 112px;
+    padding: 1.8rem 2.4rem;
+    border: none;
+    transition: 200ms;
+
+    box-shadow: 0px 0px 1rem 0px #9705EA;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 3rem 0px #9705EA;
+    
+}

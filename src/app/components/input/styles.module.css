@@ -1,0 +1,41 @@
+
+.input::placeholder{
+    color: var(--text-tertiary);
+    text-decoration: none;
+}
+
+.input_wrapper{
+    width: 100%;
+    max-width: 500px;
+    padding: 1.6rem;
+    border-radius: .8rem;
+    outline: 2px solid var(--surface-secondary);
+    background: var(--surface-primary);
+    display: flex;
+    gap: 2rem;
+}
+
+.input_wrapper:focus-within{
+    border-color: var(--brand-primary);
+    
+}
+
+.XCircle{
+    transition: 140ms ease-in;
+    cursor: pointer;
+}
+
+.XCircle:hover{
+    opacity: 0.8;
+}
+
+.input{
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+
+.input:focus-visible{
+    outline: none;
+    
+}
