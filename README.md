@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# YouTube Transcription
+![Static Badge](https://img.shields.io/badge/In%20Development-purple)
 
-## Getting Started
 
-First, run the development server:
+## Sobre
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Este é um projeto de transcrição de áudio de vídeos do YouTube. Os usuários podem inserir o link de um vídeo do YouTube para começar a transcrever o áudio para texto. Este projeto foi criado como parte do desafio semanal da Rocketseat #boracodar.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalação
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Para instalar este site localmente, siga estas etapas:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone este repositório para o seu computador.
+2. Navegue até a pasta do repositório e execute `npm install` para instalar as dependências.
+3. Execute `npm start` para iniciar o servidor local.
 
-## Learn More
+## Uso
 
-To learn more about Next.js, take a look at the following resources:
+Para usar este site, basta acessar a URL local fornecida pelo servidor local. Você pode inserir o link de um vídeo do YouTube na caixa de entrada e clicar em "Transcrever" para começar a transcrever o áudio para texto.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribuindo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Se você quiser contribuir para este projeto, sinta-se à vontade para enviar uma solicitação de pull com suas alterações. Todas as contribuições são bem-vindas!
 
-## Deploy on Vercel
+## Créditos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto foi criado por Wendel Araujo.
