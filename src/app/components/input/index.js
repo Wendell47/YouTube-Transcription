@@ -13,6 +13,7 @@ export default function Input({placeholder}){
             />
             <XCircle
             className={styles.XCircle}
+            size={24}
             weight='duotone'
             />
         </div>
